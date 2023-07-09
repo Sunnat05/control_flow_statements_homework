@@ -1,5 +1,12 @@
 def main(a):
-    """
+    c=a%10
+    b=a//10
+    d=c*10+b
+    if a>=d:
+        return 'True'
+    else: 'False'
+print(main(65))
+"""
     The two-digit integer is given.
     Replace the digits of the number.
     True if the resulting number is less than or equal to the old number, otherwise return False.
@@ -9,4 +16,3 @@ def main(a):
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
-    return
