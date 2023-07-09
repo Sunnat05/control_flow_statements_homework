@@ -1,4 +1,8 @@
 def main(a):
+    a=int(input())
+    if a>0:
+        print(a+1)
+    else: print(a)
     """
     If the number is positive, increase it to 1, else leave unchanged.
     Args:
@@ -6,4 +10,5 @@ def main(a):
     Returns:
         a: a increased by 1 if positive, else unchanged.
     """
-    return
+    return a
+print(main(4))
