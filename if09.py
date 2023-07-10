@@ -1,12 +1,10 @@
 def main(a):
-    10<=a<=99
     c=a%10
     b=a//10
     d=c*10+b
     if a>=d:
-        return 'True'
-    else: 
-        return 'False'
+        return True
+    return False
 print(main(55))
 """
     The two-digit integer is given.
