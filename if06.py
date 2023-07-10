@@ -15,8 +15,9 @@ def main(a,b,c):
        n+=1
     if p>n:
         return "there are a lot of positive numbers"
-    return "there are a lot of negative numbers"
-print(main(-9,9,6))
+    elif p<n:
+        return "there are a lot of negative numbers"
+print(main(-9,0,6))
         
 """
     Find how many positive and how many negative numbers there are in the given numbers.
